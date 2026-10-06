@@ -243,9 +243,197 @@
       font-family: var(--font-mono);
     }
 
-    /* Directory Base Content Area */
+    /* Filter Panel Section */
+    .filter-section {
+      padding: 1.75rem 0;
+      background: #ffffff;
+      border-bottom: 1px solid var(--slate-200);
+      position: sticky;
+      top: 72px;
+      z-index: 30;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .search-row {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .search-input-wrap {
+      flex: 1;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 48px;
+      padding: 0 3.25rem 0 1.25rem;
+      background: var(--slate-50);
+      border: 1px solid var(--slate-300);
+      border-radius: var(--radius-md);
+      font-size: 0.95rem;
+      font-family: var(--font-sans);
+      color: var(--slate-900);
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .search-input:focus {
+      background: #ffffff;
+      border-color: var(--ugm-gold);
+      box-shadow: 0 0 0 3px rgba(197, 155, 39, 0.15);
+    }
+
+    .search-shortcut {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 0.2rem 0.45rem;
+      background: var(--slate-200);
+      border-radius: var(--radius-sm);
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      color: var(--slate-600);
+      pointer-events: none;
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .filter-select {
+      height: 42px;
+      padding: 0 0.85rem;
+      background: var(--slate-50);
+      border: 1px solid var(--slate-300);
+      border-radius: var(--radius-md);
+      font-size: 0.85rem;
+      font-family: var(--font-sans);
+      color: var(--slate-800);
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.2s ease;
+      width: 100%;
+    }
+
+    .filter-select:focus {
+      border-color: var(--ugm-gold);
+      background: #ffffff;
+    }
+
+    .btn-reset {
+      height: 42px;
+      padding: 0 1.25rem;
+      background: var(--slate-100);
+      border: 1px solid var(--slate-300);
+      border-radius: var(--radius-md);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--slate-700);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+    }
+
+    .btn-reset:hover {
+      background: var(--slate-200);
+      color: var(--slate-900);
+    }
+
+    /* Quick Filter Chips */
+    .quick-chips-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      align-items: center;
+    }
+
+    .chip-label {
+      font-size: 0.775rem;
+      font-weight: 700;
+      color: var(--slate-500);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-right: 0.25rem;
+    }
+
+    .chip-btn {
+      padding: 0.3rem 0.75rem;
+      background: var(--slate-100);
+      border: 1px solid var(--slate-200);
+      border-radius: 999px;
+      font-size: 0.775rem;
+      font-weight: 600;
+      color: var(--slate-700);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .chip-btn:hover {
+      background: var(--slate-200);
+      color: var(--slate-900);
+    }
+
+    .chip-btn.active {
+      background: var(--ugm-navy);
+      border-color: var(--ugm-navy);
+      color: #f6e09c;
+    }
+
+    /* Results Header Bar */
+    .results-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 0;
+      font-size: 0.875rem;
+      color: var(--slate-600);
+    }
+
+    .results-count {
+      font-weight: 700;
+      color: var(--ugm-navy);
+      font-family: var(--font-mono);
+    }
+
+    .view-toggles {
+      display: flex;
+      background: var(--slate-200);
+      padding: 3px;
+      border-radius: var(--radius-md);
+      gap: 2px;
+    }
+
+    .view-btn {
+      border: none;
+      background: transparent;
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--slate-600);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .view-btn.active {
+      background: #ffffff;
+      color: var(--ugm-navy);
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* Directory Main Area */
     main.container {
-      padding-top: 2rem;
+      padding-top: 1rem;
       padding-bottom: 4rem;
     }
 
@@ -316,8 +504,16 @@
       .hero-title {
         font-size: 1.85rem;
       }
+      .filter-section {
+        position: static;
+      }
       .footer-grid {
         grid-template-columns: 1fr;
+      }
+      .results-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
       }
     }
   </style>
@@ -387,8 +583,99 @@
     </div>
   </section>
 
-  <!-- Directory Main Section (Will be populated in subsequent commits) -->
+  <!-- Filter & Search Section -->
+  <section class="filter-section">
+    <div class="container">
+      <div class="search-row">
+        <div class="search-input-wrap">
+          <input type="text" id="search-input" class="search-input" placeholder="Cari jurusan, kode, fakultas, atau prospek karir UGM..." autocomplete="off">
+          <div class="search-shortcut">/</div>
+        </div>
+      </div>
+
+      <div class="filter-grid">
+        <select id="filter-jenjang" class="filter-select">
+          <option value="">Semua Jenjang</option>
+          <option value="S1">S1 (Sarjana)</option>
+          <option value="D4">D4 (Sarjana Terapan Vokasi)</option>
+          <option value="S2">S2 (Magister)</option>
+        </select>
+
+        <select id="filter-fakultas" class="filter-select">
+          <option value="">Semua Fakultas / Sekolah</option>
+          <option value="Biologi">Fakultas Biologi</option>
+          <option value="FEB">FEB - Ekonomika & Bisnis</option>
+          <option value="FH">FH - Hukum</option>
+          <option value="FIB">FIB - Ilmu Budaya</option>
+          <option value="FISIPOL">FISIPOL - Sosial & Politik</option>
+          <option value="FK-KMK">FK-KMK - Kedokteran & Kesehatan</option>
+          <option value="FKG">FKG - Kedokteran Gigi</option>
+          <option value="FKH">FKH - Kedokteran Hewan</option>
+          <option value="FMIPA">FMIPA - Matematika & IPA</option>
+          <option value="FPsi">Fakultas Psikologi</option>
+          <option value="FT">FT - Teknik</option>
+          <option value="FTP">FTP - Teknologi Pertanian</option>
+          <option value="Farmasi">Fakultas Farmasi</option>
+          <option value="Filsafat">Fakultas Filsafat</option>
+          <option value="Geografi">Fakultas Geografi</option>
+          <option value="Kehutanan">Fakultas Kehutanan</option>
+          <option value="Pertanian">Fakultas Pertanian</option>
+          <option value="Peternakan">Fakultas Peternakan</option>
+          <option value="SV">Sekolah Vokasi (SV UGM)</option>
+        </select>
+
+        <select id="filter-rumpun" class="filter-select">
+          <option value="">Semua Rumpun Keilmuan</option>
+          <option value="Saintek">Saintek (Sains & Teknologi)</option>
+          <option value="Soshum">Soshum (Sosial & Humaniora)</option>
+          <option value="Medika">Medika (Kesehatan & Kedokteran)</option>
+          <option value="Agro">Agro (Pertanian, Kehutanan, Ternak)</option>
+          <option value="Bisnis & Manajemen">Bisnis & Manajemen</option>
+        </select>
+
+        <select id="filter-akreditasi-intl" class="filter-select">
+          <option value="">Semua Akreditasi Global</option>
+          <option value="AACSB">AACSB (Business & Management)</option>
+          <option value="ASIIN">ASIIN (Science, Tech, Medicine)</option>
+          <option value="ABET">ABET (Engineering & Computing)</option>
+          <option value="RSC">RSC (Royal Society of Chemistry)</option>
+          <option value="IABEE">IABEE (Engineering & Tech)</option>
+          <option value="AUN-QA">AUN-QA (ASEAN Quality Assurance)</option>
+        </select>
+
+        <button id="btn-reset-filters" class="btn-reset">Reset Filter</button>
+      </div>
+
+      <!-- Quick Filter Chips -->
+      <div class="quick-chips-row">
+        <span class="chip-label" id="i18n-chip-label">Quick Filter:</span>
+        <button class="chip-btn active" data-chip-type="all">Semua</button>
+        <button class="chip-btn" data-chip-type="intl" data-chip-val="AACSB">AACSB (FEB UGM)</button>
+        <button class="chip-btn" data-chip-type="intl" data-chip-val="ASIIN">ASIIN Accredited</button>
+        <button class="chip-btn" data-chip-type="intl" data-chip-val="ABET">ABET Accredited</button>
+        <button class="chip-btn" data-chip-type="jenjang" data-chip-val="D4">Sekolah Vokasi (D4)</button>
+        <button class="chip-btn" data-chip-type="rumpun" data-chip-val="Medika">Medika & Kesehatan</button>
+        <button class="chip-btn" data-chip-type="fakultas" data-chip-val="FT">Fakultas Teknik</button>
+        <button class="chip-btn" data-chip-type="rumpun" data-chip-val="Soshum">Sosial Humaniora</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Directory Main Section -->
   <main class="container" id="main-content">
+    <div class="results-bar">
+      <div>
+        <span id="i18n-showing">Menampilkan</span>
+        <span class="results-count" id="results-count">74</span>
+        <span id="i18n-prodi-text">program studi</span>
+      </div>
+
+      <div class="view-toggles">
+        <button class="view-btn active" id="view-mode-grid" title="Grid View">Grid</button>
+        <button class="view-btn" id="view-mode-table" title="Table View">Tabel</button>
+      </div>
+    </div>
+
     <div id="directory-app"></div>
   </main>
 
@@ -432,5 +719,56 @@
   </footer>
 
   <script src="data/ugm_prodi.js"></script>
+  <script>
+    // State management and event bindings
+    let currentLang = localStorage.getItem('ugm_lang') || 'id';
+
+    const searchInput = document.getElementById('search-input');
+    const filterJenjang = document.getElementById('filter-jenjang');
+    const filterFakultas = document.getElementById('filter-fakultas');
+    const filterRumpun = document.getElementById('filter-rumpun');
+    const filterIntl = document.getElementById('filter-akreditasi-intl');
+    const btnReset = document.getElementById('btn-reset-filters');
+    const chipButtons = document.querySelectorAll('.chip-btn');
+
+    // Keyboard shortcut handler
+    document.addEventListener('keydown', (e) => {
+      if ((e.key === '/' || (e.ctrlKey && e.key === 'k')) && document.activeElement !== searchInput) {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    });
+
+    btnReset.addEventListener('click', () => {
+      searchInput.value = '';
+      filterJenjang.value = '';
+      filterFakultas.value = '';
+      filterRumpun.value = '';
+      filterIntl.value = '';
+      chipButtons.forEach(b => b.classList.remove('active'));
+      const allChip = document.querySelector('.chip-btn[data-chip-type="all"]');
+      if (allChip) allChip.classList.add('active');
+    });
+
+    chipButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        chipButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const type = btn.getAttribute('data-chip-type');
+        const val = btn.getAttribute('data-chip-val');
+
+        filterJenjang.value = '';
+        filterFakultas.value = '';
+        filterRumpun.value = '';
+        filterIntl.value = '';
+
+        if (type === 'intl') filterIntl.value = val;
+        else if (type === 'jenjang') filterJenjang.value = val;
+        else if (type === 'rumpun') filterRumpun.value = val;
+        else if (type === 'fakultas') filterFakultas.value = val;
+      });
+    });
+  </script>
 </body>
 </html>
