@@ -1,0 +1,17 @@
+{
+  "title": "Universitas Gadjah Mada Study Programs & Accreditation Directory",
+  "university": "Universitas Gadjah Mada",
+  "acronym": "UGM",
+  "last_updated_iso": "2026-10-06T12:11:41.914171",
+  "last_updated_date": "06 October 2026",
+  "total_prodi": 74,
+  "total_fakultas": 19,
+  "total_s1": 62,
+  "total_vokasi_d4": 10,
+  "total_pascasarjana": 2,
+  "total_unggul": 74,
+  "total_akreditasi_internasional": 58,
+  "total_daya_tampung": 8200,
+  "source": "https://um.ugm.ac.id",
+  "license": "MIT"
+}
