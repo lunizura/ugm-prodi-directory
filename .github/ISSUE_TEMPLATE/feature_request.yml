@@ -1,0 +1,68 @@
+name: Feature Proposal or UI Enhancement
+description: Suggest a new analytical feature, UI filter, visualization, or export capability.
+title: "[Feature Proposal]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting improvements to the UGM Study Programs Directory.
+        Please describe your proposal clearly so the community can evaluate and implement it effectively.
+
+  - type: input
+    id: feature_title
+    attributes:
+      label: Feature Title
+      description: A concise summary of the proposed enhancement.
+      placeholder: e.g. Interactive UKT subsidy calculator in the prodi modal
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component_affected
+    attributes:
+      label: Target Component
+      description: Which area of the application does this feature affect?
+      options:
+        - Search and Filter System
+        - Modal Profile Dialog
+        - Grid and Table Layout Engine
+        - Data Exporters (JSON, CSV, JS)
+        - Bilingual Translation (ID/EN)
+        - Accessibility and Keyboard Navigation
+        - Documentation and Tooling
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_problem
+    attributes:
+      label: Motivation and Use Case
+      description: What challenge or user need does this feature address?
+      placeholder: Prospective students often want to calculate their estimated tuition fee based on income subsidy tiers before choosing a major...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution or Implementation Details
+      description: Describe how the feature should behave and how it could be integrated into the existing codebase.
+      placeholder: Add an interactive slider or dropdown in the modal profile card that calculates the effective nominal fee...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative approaches or workarounds you have considered.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution_interest
+    attributes:
+      label: Contribution Willingness
+      options:
+        - label: I am interested in implementing this feature or submitting a Pull Request myself.
