@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Official UGM Admissions Portal (UM UGM)
+    url: https://um.ugm.ac.id
+    about: Official university portal for seat capacities, CBT schedules, and selection requirements.
+  - name: SNPMB Kemendikbudristek Portal
+    url: https://snpmb.bppp.kemdikbud.go.id
+    about: Official national admission committee portal for SNBP and SNBT UTBK.
+  - name: BAN-PT National Accreditation System
+    url: https://www.banpt.or.id
+    about: National accreditation board portal for verifying institutional and study program rankings.
