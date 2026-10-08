@@ -1,0 +1,92 @@
+name: Data Discrepancy or Quota Correction
+description: Report incorrect seat capacity, outdated accreditation, or academic information for a UGM study program.
+title: "[Data Discrepancy]: "
+labels: ["data-quality", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping maintain the accuracy of the UGM Study Programs Directory.
+        Please provide detailed references from official UGM admissions portals (`um.ugm.ac.id`, `ugm.ac.id`, or BAN-PT/LAM).
+
+  - type: input
+    id: program_name
+    attributes:
+      label: Program Name and Code
+      description: Enter the full study program name and its official code (e.g. S1 Kedokteran - 361011).
+      placeholder: e.g. S1 Teknik Nuklir (361081)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: faculty
+    attributes:
+      label: Faculty or School
+      description: Select the managing faculty or academic school in UGM.
+      options:
+        - Fakultas Biologi
+        - Fakultas Ekonomika dan Bisnis
+        - Fakultas Farmasi
+        - Fakultas Filsafat
+        - Fakultas Geografi
+        - Fakultas Hukum
+        - Fakultas Ilmu Budaya
+        - Fakultas Ilmu Sosial dan Ilmu Politik
+        - Fakultas Kedokteran Gigi
+        - Fakultas Kedokteran Hewan
+        - Fakultas Kedokteran, Kesehatan Masyarakat, dan Keperawatan
+        - Fakultas Kehutanan
+        - Fakultas Matematika dan Ilmu Pengetahuan Alam
+        - Fakultas Pertanian
+        - Fakultas Peternakan
+        - Fakultas Psikologi
+        - Fakultas Teknik
+        - Fakultas Teknologi Pertanian
+        - Sekolah Vokasi
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field_affected
+    attributes:
+      label: Affected Data Field
+      description: Select the category of data that needs correction.
+      options:
+        - Daya Tampung Total / Sub-Quota (SNBP, SNBT, UM UGM CBT)
+        - Akreditasi Nasional (BAN-PT / LAM)
+        - Akreditasi Internasional (AACSB, ASIIN, ABET, RSC, IABEE, AUN-QA)
+        - Kurikulum atau Fokus Keilmuan
+        - Prospek Karir Lulusan
+        - Tautan Resmi Web Prodi
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_vs_expected
+    attributes:
+      label: Current vs Expected Value
+      description: State the current recorded value and what the correct value should be.
+      placeholder: |
+        Current value: Daya Tampung Total = 75 (SNBP 23, SNBT 22, UM UGM CBT 30)
+        Correct value: Daya Tampung Total = 80 (SNBP 24, SNBT 24, UM UGM CBT 32)
+    validations:
+      required: true
+
+  - type: input
+    id: official_source
+    attributes:
+      label: Official Source Link
+      description: Provide the URL where the updated information can be verified.
+      placeholder: https://um.ugm.ac.id/daya-tampung/
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: validation_checks
+    attributes:
+      label: Verification Confirmation
+      options:
+        - label: I have verified this data against an official publication from Universitas Gadjah Mada or BAN-PT/LAM.
+          required: true
+        - label: I confirm that seat allocations balance mathematically (daya_tampung == dt_snbp + dt_snbt + dt_umugm).
+          required: true
