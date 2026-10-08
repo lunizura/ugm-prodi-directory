@@ -7,8 +7,8 @@
 [![Fakultas & Sekolah](https://img.shields.io/badge/Fakultas-19%20Unit-c59b27.svg)](#ringkasan-data)
 [![Akreditasi Unggul](https://img.shields.io/badge/Unggul-100%25-gold.svg)](#ringkasan-data)
 [![Akreditasi Internasional](https://img.shields.io/badge/Internasional-58%20Prodi-purple.svg)](#ringkasan-data)
-[![Daya Tampung](https://img.shields.io/badge/Daya%20Tampung-8.200%20Kursi-blue.svg)](#ringkasan-data)
 [![Deployment](https://img.shields.io/badge/Deployment-GitHub%20Pages%20Ready-brightgreen.svg)](https://lunizura.github.io/ugm-prodi-directory/)
+[![CI Validation](https://github.com/lunizura/ugm-prodi-directory/actions/workflows/ci.yml/badge.svg)](https://github.com/lunizura/ugm-prodi-directory/actions)
 
 [Bahasa Indonesia](#bahasa-indonesia) | [English](#english)
 
@@ -92,6 +92,14 @@ Universitas Gadjah Mada menerapkan kebijakan pembiayaan berkeadilan sosial melal
 - **UKT Pendidikan Unggul Bersubsidi 25%:** Mahasiswa membayar 75% dari biaya operasional pendidikan.
 - **UKT Pendidikan Unggul (Penuh):** Diberikan bagi mahasiswa dengan kemampuan ekonomi mapan. Calon mahasiswa jalur UM UGM CBT dengan kategori UKT Unggul dikenakan Iuran Pengembangan Institusi (IPI).
 
+### Panduan Kontribusi Komunitas
+
+Repositori ini terbuka untuk perbaikan data dan kontribusi dari sivitas akademika maupun calon mahasiswa baru:
+- Baca panduan tata kelola dan alur kerja lengkap di [CONTRIBUTING.md](CONTRIBUTING.md).
+- Laporkan koreksi daya tampung atau akreditasi melalui [Template Koreksi Data](.github/ISSUE_TEMPLATE/data_correction.yml).
+- Usulkan fitur antarmuka atau direktori baru melalui [Template Usulan Fitur](.github/ISSUE_TEMPLATE/feature_request.yml).
+- Seluruh Pull Request diverifikasi secara otomatis oleh GitHub Actions CI.
+
 ---
 
 ## English
@@ -172,12 +180,28 @@ UGM applies the socially equitable **UKT Pendidikan Unggul** tuition structure:
 - **UKT Pendidikan Unggul Subsidized 25%:** Student pays 75% of educational operating costs.
 - **UKT Pendidikan Unggul (Full):** Standard unsubsidized fee for capable income brackets. UM UGM CBT entrants placed in this tier contribute to the Institutional Development Fee (IPI).
 
+### Community Governance & Contributing
+
+We welcome contributions from prospective students, researchers, and academic counselors:
+- Review the complete onboarding rules and local testing guide in [CONTRIBUTING.md](CONTRIBUTING.md).
+- Report quota, track, or accreditation discrepancies via the [Data Discrepancy Form](.github/ISSUE_TEMPLATE/data_correction.yml).
+- Propose new visual features or data filters via the [Feature Proposal Form](.github/ISSUE_TEMPLATE/feature_request.yml).
+- Pre-merge checks and automated test runs are enforced via GitHub Actions CI on all branches and pull requests.
+
 ---
 
 ## File Inventory
 
 ```
 ugm-prodi-directory/
+|-- .github/
+|   |-- workflows/
+|   |   `-- ci.yml             # GitHub Actions continuous integration pipeline
+|   |-- ISSUE_TEMPLATE/
+|   |   |-- config.yml         # Community contact links and issue settings
+|   |   |-- data_correction.yml# Structured issue form for data discrepancies
+|   |   `-- feature_request.yml# Structured issue form for feature proposals
+|   `-- pull_request_template.md # Mandatory pre-merge verification checklist
 |-- data/
 |   |-- ugm_prodi.json         # Raw structured dataset of 74 study programs
 |   |-- ugm_prodi.js           # Browser-ready dataset and metadata definitions
@@ -187,6 +211,7 @@ ugm-prodi-directory/
 |   `-- build_ugm_dataset.py   # Dataset builder script and quota parity generator
 |-- tests/
 |   `-- test_ugm_directory.py  # End-to-end validation and regression test suite
+|-- CONTRIBUTING.md            # Guidelines for external contributors
 |-- index.html                 # Responsive bilingual web directory with modal
 |-- LICENSE                    # MIT open-source license
 `-- README.md                  # Comprehensive bilingual documentation
