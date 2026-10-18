@@ -228,4 +228,4 @@ This repository is part of an open data initiative covering Indonesian universit
 
 ## License
 
-Released under the [MIT License](LICENSE). Educational data compiled from official admission portals of Universitas Gadjah Mada (um.ugm.ac.id) and the Ministry of Primary and Secondary Education (Kemendikbudristek/BPPP). Zero emojis strictly enforced.
+Released under the [MIT License](LICENSE). Educational data compiled from official admission portals of Universitas Gadjah Mada (um.ugm.ac.id) and the Ministry of Primary and Secondary Education (Kemendikbudristek/BPPP).
