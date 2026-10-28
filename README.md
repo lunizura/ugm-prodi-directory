@@ -10,7 +10,7 @@
 [![Deployment](https://img.shields.io/badge/Deployment-GitHub%20Pages%20Ready-brightgreen.svg)](https://lunizura.github.io/ugm-prodi-directory/)
 [![CI Validation](https://github.com/lunizura/ugm-prodi-directory/actions/workflows/ci.yml/badge.svg)](https://github.com/lunizura/ugm-prodi-directory/actions)
 
-[Bahasa Indonesia](#bahasa-indonesia) | [English](#english)
+[Bahasa Indonesia](#bahasa-indonesia) | [English](#english) | [Dokumentasi Fakultas & Panduan](#dokumentasi-profil-fakultas--panduan-akademik)
 
 ---
 
@@ -54,51 +54,37 @@ Berdasarkan data resmi Ujian Mandiri UGM (um.ugm.ac.id), BAN-PT, LAM, dan lembag
 | **Program Kelas Internasional (IUP)** | **12** | Program sarjana berbahasa Inggris dengan pertukaran global |
 | **Lokasi Kampus Utama** | **1** | Kawasan Kampus Bulaksumur, D.I. Yogyakarta |
 
-### Struktur 18 Fakultas dan 1 Sekolah Vokasi UGM
+---
 
-1. **Fakultas Biologi (Biologi)** - S1 Biologi
-2. **Fakultas Ekonomika dan Bisnis (FEB)** - S1 Akuntansi, S1 Manajemen, S1 Ilmu Ekonomi, Magister Manajemen
-3. **Fakultas Farmasi (Farmasi)** - S1 Farmasi
-4. **Fakultas Filsafat (Filsafat)** - S1 Filsafat
-5. **Fakultas Geografi (Geografi)** - S1 Geografi Lingkungan, S1 Kartografi dan Penginderaan Jauh, S1 Pembangunan Wilayah
-6. **Fakultas Hukum (FH)** - S1 Ilmu Hukum
-7. **Fakultas Ilmu Budaya (FIB)** - S1 Antropologi Budaya, S1 Arkeologi, S1 Bahasa dan Sastra Indonesia, S1 Sastra Inggris, S1 Sastra Jepang, S1 Bahasa dan Kebudayaan Korea, S1 Sastra Prancis, S1 Sastra Arab, S1 Sejarah
-8. **Fakultas Ilmu Sosial dan Ilmu Politik (Fisipol)** - S1 Ilmu Komunikasi, S1 Ilmu Hubungan Internasional, S1 Manajemen dan Kebijakan Publik, S1 Politik dan Pemerintahan, S1 Pembangunan Sosial dan Kesejahteraan, S1 Sosiologi, Magister Administrasi Publik
-9. **Fakultas Kedokteran Gigi (FKG)** - S1 Kedokteran Gigi, S1 Higiene Gigi
-10. **Fakultas Kedokteran Hewan (FKH)** - S1 Kedokteran Hewan
-11. **Fakultas Kedokteran, Kesehatan Masyarakat, dan Keperawatan (FK-KMK)** - S1 Kedokteran, S1 Keperawatan, S1 Gizi Kesehatan
-12. **Fakultas Kehutanan (Kehutanan)** - S1 Kehutanan
-13. **Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)** - S1 Matematika, S1 Statistika, S1 Ilmu Komputer, S1 Elektronika dan Instrumentasi, S1 Fisika, S1 Geofisika, S1 Kimia
-14. **Fakultas Pertanian (Pertanian)** - S1 Agronomi, S1 Ilmu Tanah, S1 Proteksi Tanaman, S1 Ekonomi Pertanian dan Agribisnis, S1 Penyuluhan dan Komunikasi Pertanian, S1 Akuakultur, S1 Manajemen Sumberdaya Akuatik, S1 Teknologi Hasil Perikanan
-15. **Fakultas Peternakan (Peternakan)** - S1 Ilmu dan Industri Peternakan
-16. **Fakultas Psikologi (Psikologi)** - S1 Psikologi
-17. **Fakultas Teknik (FT)** - S1 Teknik Sipil, S1 Arsitektur, S1 Teknik Mesin, S1 Teknik Industri, S1 Teknik Kimia, S1 Teknik Elektro, S1 Teknologi Informasi, S1 Teknik Nuklir, S1 Teknik Fisika, S1 Teknik Geodesi, S1 Teknik Geologi, S1 Perencanaan Wilayah dan Kota
-18. **Fakultas Teknologi Pertanian (FTP)** - S1 Teknik Pertanian, S1 Teknologi Pangan dan Hasil Pertanian, S1 Teknologi Industri Pertanian
-19. **Sekolah Vokasi (SV)** - D4 Manajemen Informasi Kesehatan, D4 Teknologi Rekayasa Perangkat Lunak, D4 Teknologi Rekayasa Elektro, D4 Teknologi Rekayasa Instrumentasi dan Kontrol, D4 Teknologi Rekayasa Mesin, D4 Teknik Pengelolaan dan Pemeliharaan Infrastruktur Sipil, D4 Perbankan, D4 Akuntansi Sektor Publik, D4 Pembangunan Ekonomi Kewilayahan, D4 Pengelolaan Arsip dan Rekaman Informasi
+## Dokumentasi Profil Fakultas & Panduan Akademik
 
-### Jalur Penerimaan Mahasiswa Baru
+Daftar dokumen profil akademik 18 fakultas, 1 sekolah vokasi, dan panduan seleksi masuk UGM:
 
-- **SNBP (Seleksi Nasional Berdasarkan Prestasi):** Seleksi nasional tanpa tes berdasarkan penelusuran prestasi akademik rapor dan portofolio (kuota 30%).
-- **SNBT (Seleksi Nasional Berdasarkan Tes):** Seleksi nasional ujian tulis berbasis komputer / UTBK serentak se-Indonesia (kuota 30%).
-- **UM UGM CBT (Ujian Mandiri Computer Based Test UGM):** Jalur ujian mandiri berbasis komputer yang diselenggarakan oleh UGM di Yogyakarta dan beberapa kota mitra (kuota 40%).
-- **IUP (International Undergraduate Program):** Seleksi kelas internasional berbahasa Inggris dengan asesmen Gadjah Mada English Test (GMST), wawancara, dan fokus mobilitas global.
-
-### Kebijakan Uang Kuliah Tunggal (UKT Pendidikan Unggul)
-
-Universitas Gadjah Mada menerapkan kebijakan pembiayaan berkeadilan sosial melalui **UKT Pendidikan Unggul**:
-- **UKT Pendidikan Unggul Bersubsidi 100%:** Bebas biaya kuliah (Rp 0 per semester).
-- **UKT Pendidikan Unggul Bersubsidi 75%:** Mahasiswa hanya membayar 25% dari biaya operasional pendidikan.
-- **UKT Pendidikan Unggul Bersubsidi 50%:** Mahasiswa membayar 50% dari biaya operasional pendidikan.
-- **UKT Pendidikan Unggul Bersubsidi 25%:** Mahasiswa membayar 75% dari biaya operasional pendidikan.
-- **UKT Pendidikan Unggul (Penuh):** Diberikan bagi mahasiswa dengan kemampuan ekonomi mapan. Calon mahasiswa jalur UM UGM CBT dengan kategori UKT Unggul dikenakan Iuran Pengembangan Institusi (IPI).
-
-### Panduan Kontribusi Komunitas
-
-Repositori ini terbuka untuk perbaikan data dan kontribusi dari sivitas akademika maupun calon mahasiswa baru:
-- Baca panduan tata kelola dan alur kerja lengkap di [CONTRIBUTING.md](CONTRIBUTING.md).
-- Laporkan koreksi daya tampung atau akreditasi melalui [Template Koreksi Data](.github/ISSUE_TEMPLATE/data_correction.yml).
-- Usulkan fitur antarmuka atau direktori baru melalui [Template Usulan Fitur](.github/ISSUE_TEMPLATE/feature_request.yml).
-- Seluruh Pull Request diverifikasi secara otomatis oleh GitHub Actions CI.
+- **Panduan Seleksi Masuk:**
+  - [Panduan UM UGM CBT (Materi Subtes, Pusat Ujian, dan Skema Biaya)](docs/admissions/um_ugm_cbt.md)
+- **Profil Fakultas Medis & Hayati:**
+  - [Fakultas Kedokteran, Kesehatan Masyarakat, dan Keperawatan (FK-KMK)](docs/faculties/fkkmk.md) - RSUP Dr. Sardjito, RSA UGM, Wolbachia
+  - [Fakultas Kedokteran Gigi (FKG)](docs/faculties/fkg.md) - RSGM Prof. Soedomo, Kedokteran Gigi & Higiene Gigi
+  - [Fakultas Kedokteran Hewan (FKH)](docs/faculties/fkh.md) - RSH Prof. Soeparwi, Zoonosis One Health
+  - [Fakultas Farmasi](docs/faculties/farmasi.md) - S1 Farmasi, Profesi Apoteker, APSL
+  - [Fakultas Biologi](docs/faculties/biologi.md) - Kebun Sawitsari, Museum Biologi, ASIIN
+- **Profil Fakultas Keteknikan & Sains:**
+  - [Fakultas Teknik (FT)](docs/faculties/teknik.md) - 8 Departemen, 13 Prodi S1, Akreditasi ABET & ASIIN
+  - [Fakultas Teknologi Pertanian (FTP)](docs/faculties/ftp.md) - Akreditasi IFT Amerika Serikat & IABEE
+  - [Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)](docs/faculties/fmipa.md) - Ilmu Komputer, Elins, Kimia RSC
+  - [Fakultas Geografi](docs/faculties/geografi.md) - Kartografi, Penginderaan Jauh, PUSPICS
+  - [Fakultas Kehutanan](docs/faculties/kehutanan.md) - Hutan Wanagama, Silvikultur Intensif (SILIN)
+- **Profil Fakultas Agro-Kompleks:**
+  - [Fakultas Pertanian & Fakultas Peternakan](docs/faculties/pertanian_peternakan.md) - Smart Agriculture, Teaching Farm Banguntapan
+- **Profil Fakultas Sosial, Humaniora, Hukum & Bisnis:**
+  - [Fakultas Ekonomika dan Bisnis (FEB)](docs/faculties/feb.md) - Akreditasi AACSB Internasional
+  - [Fakultas Hukum (FH)](docs/faculties/hukum.md) - PUKAT Korupsi, LKBH, Peradilan Semu Jessup
+  - [Fakultas Ilmu Sosial dan Ilmu Politik (Fisipol)](docs/faculties/fisipol.md) - CfDS, ASEAN Studies Center
+  - [Fakultas Ilmu Budaya (FIB)](docs/faculties/fib.md) - Arkeologi, Sejarah, Pariwisata, Sastra
+  - [Fakultas Psikologi](docs/faculties/psikologi.md) - Mind, Brain, and Behavior (MBB) Lab, UKP
+  - [Fakultas Filsafat](docs/faculties/filsafat.md) - Pusat Kajian Filsafat Pancasila
+- **Pendidikan Terapan & Vokasi:**
+  - [Sekolah Vokasi (SV)](docs/faculties/sekolah_vokasi.md) - 10 Sarjana Terapan (D4), TILC, FRC Kulon Progo
 
 ---
 
@@ -142,51 +128,13 @@ Based on official records from UGM Admissions (um.ugm.ac.id), BAN-PT, LAM, and i
 | **International Programs (IUP)** | **12** | English-taught undergraduate degree tracks with international exposure |
 | **Main Campus Location** | **1** | Bulaksumur Campus, Special Region of Yogyakarta |
 
-### Structure of UGM Faculties and Vocational College
+---
 
-1. **Faculty of Biology** - Biology
-2. **Faculty of Economics and Business (FEB)** - Accounting, Management, Economics, Master of Management
-3. **Faculty of Pharmacy** - Pharmacy
-4. **Faculty of Philosophy** - Philosophy
-5. **Faculty of Geography** - Environmental Geography, Cartography & Remote Sensing, Regional Development
-6. **Faculty of Law** - Law
-7. **Faculty of Cultural Sciences (FIB)** - Cultural Anthropology, Archaeology, Indonesian Literature, English Literature, Japanese Literature, Korean Language & Culture, French Literature, Arabic Literature, History
-8. **Faculty of Social and Political Sciences (Fisipol)** - Communication Science, International Relations, Public Policy & Management, Politics & Government, Social Development & Welfare, Sociology, Master of Public Administration
-9. **Faculty of Dentistry (FKG)** - Dentistry, Dental Hygiene
-10. **Faculty of Veterinary Medicine (FKH)** - Veterinary Medicine
-11. **Faculty of Medicine, Public Health, and Nursing (FK-KMK)** - Medicine, Nursing, Health Nutrition
-12. **Faculty of Forestry** - Forestry
-13. **Faculty of Mathematics and Natural Sciences (FMIPA)** - Mathematics, Statistics, Computer Science, Electronics & Instrumentation, Physics, Geophysics, Chemistry
-14. **Faculty of Agriculture** - Agronomy, Soil Science, Plant Protection, Agricultural Economics & Agribusiness, Agricultural Extension & Communication, Aquaculture, Aquatic Resources Management, Fisheries Product Technology
-15. **Faculty of Animal Science** - Animal Science and Industry
-16. **Faculty of Psychology** - Psychology
-17. **Faculty of Engineering (FT)** - Civil Engineering, Architecture, Mechanical Engineering, Industrial Engineering, Chemical Engineering, Electrical Engineering, Information Technology, Nuclear Engineering, Engineering Physics, Geodetic Engineering, Geological Engineering, Urban and Regional Planning
-18. **Faculty of Agricultural Technology (FTP)** - Agricultural Engineering, Food and Agricultural Product Technology, Agro-industrial Technology
-19. **Vocational College (Sekolah Vokasi)** - Health Information Management, Software Engineering Technology, Electrical Engineering Technology, Instrumentation & Control Engineering Technology, Mechanical Engineering Technology, Civil Infrastructure Management & Maintenance Engineering, Banking, Public Sector Accounting, Regional Economic Development, Archive & Records Information Management
+## Partisipasi Komunitas & Tata Kelola
 
-### Admission Pathways
-
-- **SNBP (National Selection Based on Achievement):** National portfolio and high school report card selection (30% quota).
-- **SNBT (National Selection Based on Tests):** National standardized computer-based examination / UTBK (30% quota).
-- **UM UGM CBT (UGM Computer-Based Examination):** Institutional computer-based entrance examination administered across Yogyakarta and test center cities (40% quota).
-- **IUP (International Undergraduate Program):** English-taught international track with specialized entrance testing (GMST) and global exchange requirements.
-
-### Tuition Fees & Equity Subsidy System
-
-UGM applies the socially equitable **UKT Pendidikan Unggul** tuition structure:
-- **UKT Pendidikan Unggul Subsidized 100%:** Rp 0 per semester (full scholarship subsidy).
-- **UKT Pendidikan Unggul Subsidized 75%:** Student pays 25% of educational operating costs.
-- **UKT Pendidikan Unggul Subsidized 50%:** Student pays 50% of educational operating costs.
-- **UKT Pendidikan Unggul Subsidized 25%:** Student pays 75% of educational operating costs.
-- **UKT Pendidikan Unggul (Full):** Standard unsubsidized fee for capable income brackets. UM UGM CBT entrants placed in this tier contribute to the Institutional Development Fee (IPI).
-
-### Community Governance & Contributing
-
-We welcome contributions from prospective students, researchers, and academic counselors:
-- Review the complete onboarding rules and local testing guide in [CONTRIBUTING.md](CONTRIBUTING.md).
-- Report quota, track, or accreditation discrepancies via the [Data Discrepancy Form](.github/ISSUE_TEMPLATE/data_correction.yml).
-- Propose new visual features or data filters via the [Feature Proposal Form](.github/ISSUE_TEMPLATE/feature_request.yml).
-- Pre-merge checks and automated test runs are enforced via GitHub Actions CI on all branches and pull requests.
+- [Panduan Kontribusi (CONTRIBUTING.md)](CONTRIBUTING.md)
+- [Pedoman Perilaku (CODE_OF_CONDUCT.md)](CODE_OF_CONDUCT.md)
+- [Kebijakan Keamanan (SECURITY.md)](SECURITY.md)
 
 ---
 
@@ -202,6 +150,10 @@ ugm-prodi-directory/
 |   |   |-- data_correction.yml# Structured issue form for data discrepancies
 |   |   `-- feature_request.yml# Structured issue form for feature proposals
 |   `-- pull_request_template.md # Mandatory pre-merge verification checklist
+|-- docs/
+|   |-- admissions/
+|   |   `-- um_ugm_cbt.md      # UM UGM CBT examination format and center locations
+|   `-- faculties/             # 17 detailed academic faculty and school documentation profiles
 |-- data/
 |   |-- ugm_prodi.json         # Raw structured dataset of 74 study programs
 |   |-- ugm_prodi.js           # Browser-ready dataset and metadata definitions
@@ -212,6 +164,8 @@ ugm-prodi-directory/
 |-- tests/
 |   `-- test_ugm_directory.py  # End-to-end validation and regression test suite
 |-- CONTRIBUTING.md            # Guidelines for external contributors
+|-- CODE_OF_CONDUCT.md         # Contributor Covenant 2.1 code of conduct
+|-- SECURITY.md                # Vulnerability disclosure policy
 |-- index.html                 # Responsive bilingual web directory with modal
 |-- LICENSE                    # MIT open-source license
 `-- README.md                  # Comprehensive bilingual documentation
@@ -224,6 +178,7 @@ This repository is part of an open data initiative covering Indonesian universit
 - [Keketatan PTN & Univ Indonesia](https://github.com/lunizura/keketatan-univ-indonesia) - Selectivity rates, quota trends, and admission statistics across Indonesian public and private universities.
 - [UI Prodi Directory](https://github.com/lunizura/ui-prodi-directory) - Study programs, quotas, and accreditation directory for Universitas Indonesia.
 - [ITB Prodi Directory](https://github.com/lunizura/itb-prodi-directory) - Study programs, TPB faculties, and global accreditations for Institut Teknologi Bandung.
+- [UNS Prodi Directory](https://github.com/lunizura/uns-prodi-directory) - Study programs, 15 faculties/schools, and accreditation directory for Universitas Sebelas Maret.
 - [UGM Prodi Directory](https://github.com/lunizura/ugm-prodi-directory) - Study programs, 19 faculties/schools, and accreditation directory for Universitas Gadjah Mada.
 
 ## License
